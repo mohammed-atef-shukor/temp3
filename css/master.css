@@ -94,7 +94,7 @@
     -o-transform: translatey(-50%);
     right: 15px;
     border: 5px solid rgba(160, 214, 108, 0.301);
- }
+}
 
 .top-bar ul ul{
     margin: 0px;
@@ -119,7 +119,7 @@
 
 .top-bar> ul> li:last-of-type:hover ul{
     display: flex;
- }
+}
 .top-bar> ul> li:last-of-type ul li:hover{
     background-color: #777;
 }
@@ -501,5 +501,12 @@ transform: translate(-50% ,-50%);
         background-color: transparent;
         color: #4d636f;
     }
-
+    .top-bar ul ul li{
+        left: -42px;
+    }
+    .top-bar ul ul{
+        left: -174px;
+        z-index: 10;
+        background-color: white;
+    }
 }
